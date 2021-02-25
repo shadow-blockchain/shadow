@@ -1,0 +1,26 @@
+.empty-bg {
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+}
+
+.empty-box {
+  width: 100vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.empty-icon {
+  width: 736px;
+  height: 398px;
+}
+
+.empty-text {
+  margin-top: 26px;
+  font-weight: 400;
+  color: #999999;
+  font-size: 32px;
+}

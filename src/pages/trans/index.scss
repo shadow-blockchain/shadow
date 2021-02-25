@@ -1,0 +1,28 @@
+.trans-d-f {
+    padding: 8px 0;
+    color: #4C4E52;
+    font-size: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.trans-d-f-t {
+    max-width: 100px;
+    color: #4C4E52;
+}
+
+.trans-d-f-c {
+    max-width: 456px;
+    display: block;
+    line-height: 36px;
+    word-break:break-all;
+    text-align: right;
+}
+
+.trans-detail-card {
+    width: 690px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-weight: 400;
+}
