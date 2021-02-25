@@ -1,0 +1,68 @@
+.scroll-container {
+  height: calc(100vh - 120px);
+}
+
+.hash-box {
+  margin: 30px;
+  margin-top: 50px;
+  width: 690px;
+}
+
+.addr-detail-box {
+  width: 610px;
+  background: rgba(19, 11, 11, 0.86);
+  border-radius: 16px;
+  border: 2px solid #27140A;
+  margin: 0 30px;
+  padding: 30px 40px;
+  margin-top: 30px;
+  font-weight: 400;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.addr-detail-box-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.addr-icon {
+  width: 40px;
+  height: 36px;
+  margin-right: 28px;
+}
+
+.addr-hash-text {
+  width: 550px;
+  display: block;
+  line-height: 38px;
+  word-break: break-all;
+  text-align: left;
+}
+
+.addr-detail-box-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.addr-detail-box-balance {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+  .label {
+    color: #4C4E52;
+    margin-right: 15px;
+    line-height: 32px;
+  }
+
+  .balance {
+    font-size: 32px;
+    color: #DE5D17;
+    line-height: 32px;
+  }
+}

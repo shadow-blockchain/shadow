@@ -1,0 +1,24 @@
+.nav-box {
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    position:relative;
+}
+
+.nav-title{
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+}
+
+.nav-box .left-arrow {
+    width: 22px;
+    height: 34px;
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
+}

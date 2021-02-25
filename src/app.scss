@@ -1,0 +1,89 @@
+* {
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: #4C4E52;
+  font-size: 24px;
+}
+
+.bg {
+  background-color: #000000;
+  background-image: url("./static/images/bg.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.white {
+  color: #fff;
+}
+
+.red {
+  color: #B04C16;
+}
+
+.green {
+  color: #6EE2F0;
+}
+
+.blue {
+  color: #278CD2;
+}
+
+.mt40 {
+  margin-top: 40px !important;
+}
+
+.mb20{
+  margin-bottom: 20px!important;
+}
+
+.search-container {
+  width: 580px;
+  height: 64px;
+  margin: 0 auto;
+  border-radius: 32px;
+  background-color: #333333;
+  color: #999999;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.search-input {
+  width: 500px;
+  height: 64px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+
+}
+
+.search-input>.weui-input {
+  height: auto;
+  color: #fff;
+  background: none!important;
+  background-color: none!important;
+}
+
+.weui-input:-internal-autofill-selected{
+    background: none!important;
+    background-color: none!important;
+}
+
+.search-icon {
+  width: 42px;
+  height: 42px;
+}
+
+.search-small-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.title-flag {
+  width: 6px;
+  height: 26px;
+  background: #B04C16;
+
+}

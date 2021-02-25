@@ -1,0 +1,30 @@
+.expose-content {
+  width: 630px;
+  background: rgba(19, 11, 11, 0.86);
+  border-radius: 16px;
+  border: 2px solid #27140A;
+  margin: 0 30px;
+  margin-top: 46px;
+  padding: 10px 30px;
+  padding-bottom: 20px;
+}
+
+.expose-container {
+  width: 630px;
+  margin-top: 15px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 2px solid #311D1A;
+  padding-bottom: 15px;
+}
+
+.expose-title {
+  font-weight: 600;
+  color: #4C4E52;
+}
+
+.expose-container:last-child {
+    border-bottom: none;
+}
